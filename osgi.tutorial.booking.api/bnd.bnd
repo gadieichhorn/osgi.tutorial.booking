@@ -1,0 +1,16 @@
+#
+# OSGI TUTORIAL BOOKING API
+#
+
+Bundle-Version:1.0.0.${tstamp}
+Bundle-Description: 				\
+	Booking API
+	
+Export-Package:  \
+	osgi.tutorial.booking.api;provide:=true
+
+-buildpath: \
+	osgi.enroute.base.api;version=1.0
+
+-testpath: \
+	osgi.enroute.junit.wrapper;version=4.12
